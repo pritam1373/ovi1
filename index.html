@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+            background-color:aqua;
+            margin: auto;
+            margin-top: 100px;
+        }
+        #photo{
+            width: 200px;
+            margin-top: 20px;
+            margin-left: 40px;
+            
+        }
+        #bt{
+            width: 200px;
+            height: 60px;
+            border-radius: 30px;
+            background-color: yellow;
+          position: relative;
+          top: 430px;
+          left: 70px;
+            font-size: 30px;
+        }
+        #watch{
+            margin-left: 20px;
+            background-color: beige;
+            width: 280px;
+            margin-top: 30px;
+            text-align: center;
+            border-radius: 30px;
+            height: 30px;
+            border: 1px solid black;
+            font-size: 25px;
+        }
+        #vi{
+            width: 270px;
+            height: 170px;
+            position: relative;
+            top: -248px;
+            left: 19px;
+            opacity: 0;
+            
+        }
+        /* #bt:hover ~ #vi{
+            opacity: 1;
+
+        }
+         #bt:hover ~ #photo{
+            opacity: 0;
+
+        } */
+    </style>
+</head>
+  <button id="bt">Click me</button>
+      <div id="box">
+        <img src="IMG_20241010_205010.jpg" alt="" id="photo">
+      </div>
+    <div id="watch">2024 Durga Puja</div>
+    <video src="VID_20241009_163655.mp4" id="vi" controls autoplay></video>
+      <script src="scripts.js"></script>
+</body>
+</html>
